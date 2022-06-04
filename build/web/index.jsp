@@ -29,14 +29,14 @@
     </head>
     <body>
         <!-- Loader -->
-        <!-- <div id="preloader">
-            <div id="status">
-                <div class="spinner">
-                    <div class="double-bounce1"></div>
-                    <div class="double-bounce2"></div>
-                </div>
-            </div>
-        </div> -->
+        <!--         <div id="preloader">
+                    <div id="status">
+                        <div class="spinner">
+                            <div class="double-bounce1"></div>
+                            <div class="double-bounce2"></div>
+                        </div>
+                    </div>
+                </div> -->
         <!-- loader-->
 
         <!-- ============================================== HEADER ============================================== -->
@@ -67,9 +67,15 @@
                         <img src="<c:url value="/images/doctor.png"/>" class="avatar avatar-ex-small rounded-circle" alt="" height="40" width="40">
                     </button>
                     <div class="dropdown-menu">
-                        <a class="dropdown-item" href="#"><i class="bi bi-person-lines-fill"></i>  Profile</a>
-                        <a class="dropdown-item" href="#"><i class="bi bi-gear-fill"></i>  Setting</a>
-                        <a class="dropdown-item" href="#"><i class="bi bi-arrow-bar-right"></i>  Logout</a>
+                        <a class="dropdown-item d-flex align-items-center text-dark" href="doctor-profile.html">
+                            <div class="flex-1 ms-2">
+                                <span class="d-block mb-1">Calvin Carlo</span>
+                                <small class="text-muted">Orthopedic</small>
+                            </div>
+                        </a>
+                        <a class="dropdown-item" href="#"><i class="bi bi-person-lines-fill"></i> Profile</a>
+                        <a class="dropdown-item" href="#"><i class="bi bi-gear-fill"></i> Setting</a>
+                        <a class="dropdown-item" href="#"><i class="bi bi-door-open-fill"></i> Logout</a>
                     </div>
                 </div>
                 <!-- end drop-down -->
@@ -139,59 +145,7 @@
 
         <!-- Start -->
         <section class="section">
-            <!-- start opening-hours  -->
-            <!-- <div class="container mt-5">
-               <h5 class="text-center">Opening Hours</h5>
-                <div class="row border-solid">
-                     <div class="col-sm-6 text-bold">
-                       <p>Monday - Friday</p>
-                       <p>Saturday</p>
-                       <p>Sunday</p>
-                     </div>
-                     <div class="col-sm-6">
-                         <p>8.00 - 20.00</p>
-                         <p>8.00 - 18.00</p>
-                         <p>8.00 - 14.00</p>
-                     </div>
-                </div>
-            </div> -->
-            <!-- start 4 factors  -->
             <div class="container mt-5">
-                <h4 class="text-center">4 YẾU TỐ GIÚP PEACE DENTISTRY CAM KẾT CHẤT LƯỢNG DỊCH VỤ</h4>
-                <h6 class="text-center"><em>"Cam kết chất lượng dịch vụ chuẩn quốc tế"</em></h6>
-                <hr class="text-center border-primary" style="width: 8em;">
-                <div class="row">
-                    <div class="col-sm-3">
-                        <div class="border p-2">
-                            <img class="img-fluid" src="assets/images/factors/doi-ngu-bac-si-gioi.png" alt="đội ngũ bác sĩ giỏi tại peace dentistry">
-                            <h6 class="text-center mt-3"><a href="/doi-ngu-bac-si/">1. Đội ngũ Nha sĩ hàng đầu TP.HCM</a></h6>
-                            <p class="text-justify">100% Bác sĩ tốt nghiệp ĐH Y Dược TP.HCM, 3 ThS, 4 bác sĩ tu nghiệp ở Pháp, Mỹ, Hàn Quốc,...với các chứng chỉ quốc tế. Các chuyên gia: Nguyễn Văn Khoa, Thân Trọng Nguyên, Nguyễn Trọng Nguyễn...là những bác sĩ nổi tiếng tại TP.HCM</p>
-                        </div>
-                    </div>
-                    <div class="col-sm-3">
-                        <div class="border p-2">
-                            <img class="img-fluid" src="assets/images/factors/thiet-bi-hien-dai.png" alt="trang thiết bị hiện tại tại peace dentistry">
-                            <h6 class="text-center mt-3"><a href="/trang-thiet-bi-va-cong-nghe/">2. Trang thiết bị và công nghệ nha khoa hiện đại</a></h6>
-                            <p class="text-justify">Trang bị đồng bộ hệ thống trang thiết bị Nha khoa hiện đại nhập từ Mỹ, Anh và Úc. CT Cone Beam, Xquang kỹ thuật số, máy cắm Implant, ghế nha hiện đại của Mỹ, phòng vô trùng khép kín...đảm bảo hỗ trợ tối đa cho Bác sĩ.</p>
-                        </div>
-                    </div>
-                    <div class="col-sm-3">
-                        <div class="border p-2">
-                            <img class="img-fluid" src="assets/images/factors/quy-trinh-chuyen-nghiep.jpg" alt="quy trình chuyên nghiệp">
-                            <h6 class="text-center mt-3"><a href="/nguyen-tac-1-bac-si-gioi-1-chuyen-khoa-dieu-tri-quy-trinh-chuan-fda/">3. Chuyên môn hóa điều trị với 6 chuyên khoa</a></h6>
-                            <p class="text-justify">Là nha khoa tiên phong áp dụng điều trị theo chuyên khoa để đảm bảo chất lượng dịch vụ cao nhất, Peace Dentistry chia thành 6 chuyên khoa điều trị. Theo đó, bác sĩ chỉ điều trị ở những lĩnh vực mà họ giỏi nhất, nhiều kinh nghiệm nhất.</p>
-                        </div>
-                    </div>
-                    <div class="col-sm-3">
-                        <div class="border p-2">
-                            <img class="img-fluid" src="assets/images/factors/vat-lieu-cao-cap.png" alt="vật liệu nha khoa chính hãng">
-                            <h6 class="text-center mt-3"><a href="/vat-lieu-nha-khoa-cao-cap-chinh-hang/">4. Vật liệu nha khoa chính hãng - Bảo hành lâu dài</a></h6>
-                            <p class="text-justify">Peace Dentistry cam kết 100% vật liệu Nha khoa là cao cấp và chính hãng từ các hãng nổi tiếng của Đức và Mỹ, Hàn Quốc: Straumann, Noble, Tekka, Cercon, Zirconia, Emax, Vita...<br><br></p><br>
-                        </div>
-                    </div>
-                </div>
-                <!-- end 4 factors  -->
-
                 <!-- start service  -->
                 <div class="container mt-100 mt-60">
                     <div class="row justify-content-center">
@@ -207,7 +161,7 @@
                         <div class="col-xl-3 col-md-4 col-12 mt-5">
                             <div class="card features feature-primary border-0">
                                 <div class="img-service ms-5">
-                                    <img src="assets/images/service/implant.png" alt="">
+                                    <img src="<c:url value="/images/service/implant.png"/>" alt="">
                                 </div>
                                 <div class="card-body p-0 mt-3">
                                     <a href="departments.html" class="title h5">Cấy ghép Implant</a>
@@ -220,7 +174,7 @@
                         <div class="col-xl-3 col-md-4 col-12 mt-5">
                             <div class="card features feature-primary border-0">
                                 <div class="img-service ms-5">
-                                    <img src="assets/images/service/bocrangsu.png" alt="">
+                                    <img src="<c:url value="/images/service/bocrangsu.png"/>" alt="">
                                 </div>
                                 <div class="card-body p-0 mt-3">
                                     <a href="departments.html" class="title h5">Thẩm mỹ răng sứ</a>
@@ -233,7 +187,7 @@
                         <div class="col-xl-3 col-md-4 col-12 mt-5">
                             <div class="card features feature-primary border-0">
                                 <div class="img-service ms-5">
-                                    <img src="assets/images/service/trongrangsu.png" alt="">
+                                    <img src="<c:url value="/images/service/trongrangsu.png"/>" alt="">
                                 </div>
                                 <div class="card-body p-0 mt-3">
                                     <a href="departments.html" class="title h5">Trồng răng sứ</a>
@@ -246,7 +200,7 @@
                         <div class="col-xl-3 col-md-4 col-12 mt-5">
                             <div class="card features feature-primary border-0">
                                 <div class="img-service ms-5">
-                                    <img src="assets/images/service/matsuveneer.png" alt="">
+                                    <img src="<c:url value="/images/service/matsuveneer.png"/>" alt="">
                                 </div>
                                 <div class="card-body p-0 mt-3">
                                     <a href="departments.html" class="title h5">Mặt sứ veneer</a>
@@ -259,7 +213,7 @@
                         <div class="col-xl-3 col-md-4 col-12 mt-5">
                             <div class="card features feature-primary border-0">
                                 <div class="img-service ms-5">
-                                    <img src="assets/images/service/niengrang.png" alt="">
+                                    <img src="<c:url value="/images/service/niengrang.png"/>" alt="">
                                 </div>
                                 <div class="card-body p-0 mt-3">
                                     <a href="departments.html" class="title h5">Niềng răng</a>
@@ -272,7 +226,7 @@
                         <div class="col-xl-3 col-md-4 col-12 mt-5">
                             <div class="card features feature-primary border-0">
                                 <div class="img-service ms-5">
-                                    <img src="assets/images/service/tramrang.png" alt="">
+                                    <img src="<c:url value="/images/service/tramrang.png"/>" alt="">
                                 </div>
                                 <div class="card-body p-0 mt-3">
                                     <a href="departments.html" class="title h5">Thẩm mỹ nha khoa</a>
@@ -285,7 +239,7 @@
                         <div class="col-xl-3 col-md-4 col-12 mt-5">
                             <div class="card features feature-primary border-0">
                                 <div class="img-service ms-5">
-                                    <img src="assets/images/service/taytrangrang.png" alt="">
+                                    <img src="<c:url value="/images/service/taytrangrang.png"/>" alt="">
                                 </div>
                                 <div class="card-body p-0 mt-3">
                                     <a href="departments.html" class="title h5">Tẩy trắng răng</a>
@@ -298,7 +252,7 @@
                         <div class="col-xl-3 col-md-4 col-12 mt-5">
                             <div class="card features feature-primary border-0">
                                 <div class="img-service ms-5">
-                                    <img src="assets/images/service/tatcadichvu.png" alt="">
+                                    <img src="<c:url value="/images/service/tatcadichvu.png"/>" alt="">
                                 </div>
                                 <div class="card-body p-0 mt-3">
                                     <a href="departments.html" class="title h5">Nha tổng quát</a>
@@ -418,66 +372,398 @@
         </section><!--end section-->
         <!-- End -->
 
-        <div class="container">
-            <h5 class="text-center"  id="book_appointment1">ĐẶT HẸN KHÁM</h5>
-            <h6 class="text-center"><em>(Để lại thông tin và vấn đề về răng của bạn, Nha khoa sẽ gọi lại tư vấn ngay)</em></h6>
-            <div class="form_contact">
-                <form action="">
-                    <div class="row pb-2 mx-0">
-                        <div class="col-sm-6">
-                            <div class="input-group">
-
-                            </div>
-                            <label for="service">Điền họ và tên :</label> <br>
-                            <input type="text" placeholder="Họ tên (*)" required>
+        <!-- Start -->
+        <section class="section bg-light">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12">
+                        <div class="section-title text-center mb-4 pb-2">
+                            <h4 class="title mb-4">THỜI GIAN LÀM VIỆC CỦA BÁC SỸ</h4>
+                            <h6 class="text-center"><em>Chúng tôi làm việc 7 ngày trong tuần, hãy đến với chúng tôi khi bạn cần.</em></h6>
                         </div>
-                        <div class="col-sm-6">
-                            <div class="input-group">
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
 
-                            </div>
-                            <label for="service">Điền SĐT :</label> <br>
-                            <input type="text" placeholder="Số điện thoại" required>
-                        </div>
-                        <div class="col-sm-6">
-                            <div class="input-group">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 mt-4 pt-2">
+                        <div class="table-responsive shadow rounded">
+                            <table class="table table-center table-bordered bg-white mb-0">
+                                <thead>
+                                    <tr>
+                                        <th class="text-center py-4" style="min-width: 120px;">Time Table</th>
+                                        <th class="text-center py-4" style="min-width: 200px;">Thứ hai</th>
+                                        <th class="text-center py-4" style="min-width: 200px;">Thứ ba</th>
+                                        <th class="text-center py-4" style="min-width: 200px;">Thứ tư</th>
+                                        <th class="text-center py-4" style="min-width: 200px;">Thứ năm</th>
+                                        <th class="text-center py-4" style="min-width: 200px;">Thứ sáu</th>
+                                        <th class="text-center py-4" style="min-width: 200px;">Thứ bảy</th>
+                                        <th class="text-center py-4" style="min-width: 200px;">Chủ nhật</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <!-- Start -->
+                                    <tr>
+                                        <th class="text-center py-5">09:00AM</th>
+                                        <td>
+                                            <div class="d-flex mb-3">
+                                                <img src="../assets/images/doctors/01.jpg" class="avatar avatar-md-sm rounded-circle border shadow" alt="">
+                                                <div class="ms-3">
+                                                    <h6 class="text-dark mb-0 d-block">Calvin Carlo</h6>
+                                                    <small class="text-muted">Eye Care</small>
+                                                </div>
+                                            </div>
+                                            <small class="bg-soft-primary rounded py-1 px-2 d-block text-center">09:00AM - 10:00AM</small>
+                                        </td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>
+                                            <div class="d-flex mb-3">
+                                                <img src="../assets/images/doctors/03.jpg" class="avatar avatar-md-sm rounded-circle border shadow" alt="">
+                                                <div class="ms-3">
+                                                    <h6 class="text-dark mb-0 d-block">Alia Reddy</h6>
+                                                    <small class="text-muted">Psychotherapy</small>
+                                                </div>
+                                            </div>
+                                            <small class="bg-soft-primary rounded py-1 px-2 d-block text-center">09:00AM - 01:00PM</small>
+                                        </td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
 
-                            </div>
-                            <label for="service">Điền gmail :</label> <br>
-                            <input type="email" placeholder="Email" required>
-                        </div>
-                        <div class="col-sm-6">
-                            <div class="input-group">
+                                    <tr>
+                                        <th class="text-center py-5">11:00AM</th>
+                                        <td></td>
+                                        <td>
+                                            <div class="d-flex mb-3">
+                                                <img src="../assets/images/doctors/02.jpg" class="avatar avatar-md-sm rounded-circle border shadow" alt="">
+                                                <div class="ms-3">
+                                                    <h6 class="text-dark mb-0 d-block">Cristino Murphy</h6>
+                                                    <small class="text-muted">Gynecology</small>
+                                                </div>
+                                            </div>
+                                            <small class="bg-soft-primary rounded py-1 px-2 d-block text-center">11:00AM - 04:00PM</small>
+                                        </td>
+                                        <td></td>
+                                        <td>
+                                            <div class="d-flex mb-3">
+                                                <img src="../assets/images/doctors/05.jpg" class="avatar avatar-md-sm rounded-circle border shadow" alt="">
+                                                <div class="ms-3">
+                                                    <h6 class="text-dark mb-0 d-block">Jennifer Ballance</h6>
+                                                    <small class="text-muted">Cardiology</small>
+                                                </div>
+                                            </div>
+                                            <small class="bg-soft-primary rounded py-1 px-2 d-block text-center">11:00AM - 12:00PM</small>
+                                        </td>
+                                        <td></td>
+                                        <td>
+                                            <div class="d-flex mb-3">
+                                                <img src="../assets/images/doctors/04.jpg" class="avatar avatar-md-sm rounded-circle border shadow" alt="">
+                                                <div class="ms-3">
+                                                    <h6 class="text-dark mb-0 d-block">Toni Kovar</h6>
+                                                    <small class="text-muted">Orthopedic</small>
+                                                </div>
+                                            </div>
+                                            <small class="bg-soft-primary rounded py-1 px-2 d-block text-center">09:00AM - 10:00AM</small>
+                                        </td>
+                                        <td></td>
+                                    </tr>
 
-                            </div>
-                            <label for="">Chọn ngày hẹn :</label> <br>
-                            <input type="date" placeholder="Ngày hẹn" required>
-                        </div>
-                        <div class="col-sm-6">
-                            <div class="input-group">
+                                    <tr>
+                                        <th class="text-center py-5">02:00PM</th>
+                                        <td></td>
+                                        <td></td>
+                                        <td>
+                                            <div class="d-flex mb-3">
+                                                <img src="../assets/images/doctors/06.jpg" class="avatar avatar-md-sm rounded-circle border shadow" alt="">
+                                                <div class="ms-3">
+                                                    <h6 class="text-dark mb-0 d-block">Tara Arrington</h6>
+                                                    <small class="text-muted">Neurology</small>
+                                                </div>
+                                            </div>
+                                            <small class="bg-soft-primary rounded py-1 px-2 d-block text-center">02:00PM - 04:00PM</small>
+                                        </td>
+                                        <td></td>
+                                        <td>
+                                            <div class="d-flex mb-3">
+                                                <img src="../assets/images/doctors/05.jpg" class="avatar avatar-md-sm rounded-circle border shadow" alt="">
+                                                <div class="ms-3">
+                                                    <h6 class="text-dark mb-0 d-block">Jennifer Ballance</h6>
+                                                    <small class="text-muted">Cardiology</small>
+                                                </div>
+                                            </div>
+                                            <small class="bg-soft-primary rounded py-1 px-2 d-block text-center">11:00AM - 12:00PM</small>
+                                        </td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
 
-                            </div>
-                            <label for="service">Chọn dịch vụ :</label> <br>
-                            <select name="service" id="service">
-                                <option value="0">Cấy ghép Implant</option>
-                                <option value="1">Thẩm mỹ răng sứ</option>
-                                <option value="2">Trồng răng sứ</option>
-                                <option value="3">Mặt sứ Veneer</option>
-                                <option value="4">Niềng răng chỉnh nha</option>
-                                <option value="5">Thẩm mỹ nha khoa</option>
-                                <option value="6">Tẩy trắng răng</option>
-                                <option value="7">Nha tổng quát</option>
-                            </select>
+                                    <tr>
+                                        <th class="text-center py-5">04:00PM</th>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>
+                                            <div class="d-flex mb-3">
+                                                <img src="../assets/images/doctors/06.jpg" class="avatar avatar-md-sm rounded-circle border shadow" alt="">
+                                                <div class="ms-3">
+                                                    <h6 class="text-dark mb-0 d-block">Tara Arrington</h6>
+                                                    <small class="text-muted">Neurology</small>
+                                                </div>
+                                            </div>
+                                            <small class="bg-soft-primary rounded py-1 px-2 d-block text-center">04:00PM - 05:00PM</small>
+                                        </td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>
+                                            <div class="d-flex mb-3">
+                                                <img src="../assets/images/doctors/06.jpg" class="avatar avatar-md-sm rounded-circle border shadow" alt="">
+                                                <div class="ms-3">
+                                                    <h6 class="text-dark mb-0 d-block">Tara Arrington</h6>
+                                                    <small class="text-muted">Neurology</small>
+                                                </div>
+                                            </div>
+                                            <small class="bg-soft-primary rounded py-1 px-2 d-block text-center">04:30PM - 06:00PM</small>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <th class="text-center py-5">06:00PM</th>
+                                        <td>
+                                            <div class="d-flex mb-3">
+                                                <img src="../assets/images/doctors/03.jpg" class="avatar avatar-md-sm rounded-circle border shadow" alt="">
+                                                <div class="ms-3">
+                                                    <h6 class="text-dark mb-0 d-block">Alia Reddy</h6>
+                                                    <small class="text-muted">Psychotherapy</small>
+                                                </div>
+                                            </div>
+                                            <small class="bg-soft-primary rounded py-1 px-2 d-block text-center">06:00PM - 09:00PM</small>
+                                        </td>
+                                        <td></td>
+                                        <td>
+                                            <div class="d-flex mb-3">
+                                                <img src="../assets/images/doctors/04.jpg" class="avatar avatar-md-sm rounded-circle border shadow" alt="">
+                                                <div class="ms-3">
+                                                    <h6 class="text-dark mb-0 d-block">Toni Kovar</h6>
+                                                    <small class="text-muted">Orthopedic</small>
+                                                </div>
+                                            </div>
+                                            <small class="bg-soft-primary rounded py-1 px-2 d-block text-center">07:00PM - 08:00PM</small>
+                                        </td>
+                                        <td></td>
+                                        <td>
+                                            <div class="d-flex mb-3">
+                                                <img src="../assets/images/doctors/05.jpg" class="avatar avatar-md-sm rounded-circle border shadow" alt="">
+                                                <div class="ms-3">
+                                                    <h6 class="text-dark mb-0 d-block">Jennifer Ballance</h6>
+                                                    <small class="text-muted">Cardiology</small>
+                                                </div>
+                                            </div>
+                                            <small class="bg-soft-primary rounded py-1 px-2 d-block text-center">06:00PM - 07:00PM</small>
+                                        </td>
+                                        <td></td>
+                                        <td>
+                                            <div class="d-flex mb-3">
+                                                <img src="../assets/images/doctors/03.jpg" class="avatar avatar-md-sm rounded-circle border shadow" alt="">
+                                                <div class="ms-3">
+                                                    <h6 class="text-dark mb-0 d-block">Alia Reddy</h6>
+                                                    <small class="text-muted">Psychotherapy</small>
+                                                </div>
+                                            </div>
+                                            <small class="bg-soft-primary rounded py-1 px-2 d-block text-center">06:00PM - 07:00PM</small>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <th class="text-center py-5">09:00PM</th>
+                                        <td></td>
+                                        <td>
+                                            <div class="d-flex mb-3">
+                                                <img src="../assets/images/doctors/04.jpg" class="avatar avatar-md-sm rounded-circle border shadow" alt="">
+                                                <div class="ms-3">
+                                                    <h6 class="text-dark mb-0 d-block">Toni Kovar</h6>
+                                                    <small class="text-muted">Orthopedic</small>
+                                                </div>
+                                            </div>
+                                            <small class="bg-soft-primary rounded py-1 px-2 d-block text-center">09:00PM - 10:00PM</small>
+                                        </td>
+                                        <td>
+                                            <div class="d-flex mb-3">
+                                                <img src="../assets/images/doctors/05.jpg" class="avatar avatar-md-sm rounded-circle border shadow" alt="">
+                                                <div class="ms-3">
+                                                    <h6 class="text-dark mb-0 d-block">Jennifer Ballance</h6>
+                                                    <small class="text-muted">Cardiology</small>
+                                                </div>
+                                            </div>
+                                            <small class="bg-soft-primary rounded py-1 px-2 d-block text-center">09:00PM - 10:00PM</small>
+                                        </td>
+                                        <td></td>
+                                        <td>
+                                            <div class="d-flex mb-3">
+                                                <img src="../assets/images/doctors/04.jpg" class="avatar avatar-md-sm rounded-circle border shadow" alt="">
+                                                <div class="ms-3">
+                                                    <h6 class="text-dark mb-0 d-block">Toni Kovar</h6>
+                                                    <small class="text-muted">Orthopedic</small>
+                                                </div>
+                                            </div>
+                                            <small class="bg-soft-primary rounded py-1 px-2 d-block text-center">09:00PM - 10:00PM</small>
+                                        </td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <!-- End -->
+                                </tbody>
+                            </table>
                         </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-fluid-->
+        </section><!--end section-->
+        <!-- End -->
+
+        <h4 class="text-center mt-4"  id="book_appointment1">ĐẶT HẸN KHÁM</h4>
+        <h6 class="text-center"><em>(Để lại thông tin và vấn đề về răng của bạn, Nha khoa sẽ gọi lại tư vấn ngay)</em></h6>
+        <div class="container mt-4">
+            <div class="row">
+                <div class="col-sm-8">
+                    <div class="form_contact">
+                        <form action="">
+                            <div class="row pb-2 mx-0">
+                                <div class="col-sm-6">
+                                    <label for="service">Điền họ và tên :</label> <br>
+                                    <input type="text" placeholder="Họ tên (*)" class="form-control" required>
+                                </div>
+                                <div class="col-sm-6">
+                                    <label for="service">Điền SĐT :</label> <br>
+                                    <input type="text" placeholder="Số điện thoại" class="form-control" required>
+                                </div>
+                                <div class="col-sm-6">
+                                    <label for="service">Điền gmail :</label> <br>
+                                    <input type="email" placeholder="Email" class="form-control" required>
+                                </div>
+                                <div class="col-sm-6">
+                                    <label for="">Chọn ngày hẹn :</label> <br>
+                                    <input type="date" placeholder="Ngày hẹn" class="form-control" required>
+                                </div>
+                                <div class="col-sm-6">
+                                    <label for="service">Chọn dịch vụ để book bác sỹ:</label> <br>
+                                    <select name="service" id="service" class="form-control">
+                                        <option value="0">Cấy ghép Implant</option>
+                                        <option value="1">Thẩm mỹ răng sứ</option>
+                                        <option value="2">Trồng răng sứ</option>
+                                        <option value="3">Mặt sứ Veneer</option>
+                                        <option value="4">Niềng răng chỉnh nha</option>
+                                        <option value="5">Thẩm mỹ nha khoa</option>
+                                        <option value="6">Tẩy trắng răng</option>
+                                        <option value="7">Nha tổng quát</option>
+                                    </select>
+                                </div>
+                                <div class="col-sm-6">
+                                    <button type="submit" class="btn btn-primary mt-4">Chọn dịch vụ</button>
+                                </div>
+                                <div class="col-sm-6">
+                                    <label for="service">Chọn bác sỹ:</label> <br>
+                                    <select name="service" id="service" class="form-control">
+                                        <option value="0">Toni Kovar</option>
+                                        <option value="1">Thẩm mỹ răng sứ</option>
+                                        <option value="2">Trồng răng sứ</option>
+                                        <option value="3">Mặt sứ Veneer</option>
+                                        <option value="4">Niềng răng chỉnh nha</option>
+                                        <option value="5">Thẩm mỹ nha khoa</option>
+                                        <option value="6">Tẩy trắng răng</option>
+                                        <option value="7">Nha tổng quát</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <textarea name="note" id="" cols="100" rows="5" placeholder="Ghi chú ở đây" class="form-control"></textarea> <br>
+                            <button type="submit" class="btn btn-primary">Đặt hẹn</button>
+                        </form>
                     </div>
-                    <textarea name="note" id="" cols="100" rows="5" placeholder="Ghi chú ở đây"></textarea> <br>
-                    <button type="submit" class="btn btn-primary">Đặt hẹn</button>
-                </form>
+                </div>
+                <div class="col-sm-4">
+                    <h5 class="mt-2 text-center">Map of our Location</h5>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d558.2559032672605!2d106.79650114023435!3d17.262048835249384!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9561e04c69721877!2zQ8O0bmcgdHkgVE5ISCBUTSAmIFhEIE5n4buNYyBNaW5o!5e0!3m2!1svi!2s!4v1654324702557!5m2!1svi!2s" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <h6 class="mt-2 text-center mt-3">Liên lạc với chúng tôi</h6>
+                    <div class="list-group">
+                        <a href="#" class="list-group-item list-group-item-action"><i class="bi bi-telephone-fill"></i> <b>Hotline:</b>  0384 510 456</a>
+                        <a href="#" class="list-group-item list-group-item-action"><i class="bi bi-facebook"></i> <b>Fanpages:</b> DBDentist</a>
+                        <a href="#" class="list-group-item list-group-item-action"><i class="bi bi-envelope-open-fill"></i> <b>Email:</b> hquanghoa25092001@gmail.com</a>
+                    </div>
+                </div>
             </div>
         </div>
+        
+        <div class="container mt-100 mt-60">
+                <div class="row justify-content-center">
+                    <div class="col-12">
+                        <div class="section-title text-center mb-4 pb-2">
+                            <h5 class="title mb-4">3 YẾU TỐ GIÚP DBDENTIST CAM KẾT CHẤT LƯỢNG DỊCH VỤ</h5>
+                            <h6>"Cam kết chất lượng dịch vụ chuẩn quốc tế"</h6>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
+                        <div class="card blog blog-primary border-0 shadow rounded overflow-hidden">
+                            <img src="<c:url value="/images/blogs/01.png"/>" class="img-fluid" alt="">
+                            <div class="card-body p-4">
+                                <ul class="list-unstyled mb-2">
+                                    <li class="list-inline-item text-muted small me-3"><i class="uil uil-calendar-alt text-dark h6 me-1"></i>20th November, 2020</li>
+                                    <li class="list-inline-item text-muted small"><i class="uil uil-clock text-dark h6 me-1"></i>3 min read</li>
+                                </ul>
+                                <a href="blog-detail.html" class="text-dark title h5">Trang thiết bị và công nghệ nha khoa hiện đại</a>
+                                <div class="post-meta d-flex justify-content-between mt-3">
+                                    <a href="blog-detail.html" class="link">Read More <i class="mdi mdi-chevron-right align-middle"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+
+                    <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
+                        <div class="card blog blog-primary border-0 shadow rounded overflow-hidden">
+                            <img src="<c:url value="/images/blogs/02.jpg"/>" class="img-fluid" alt="">
+                            <div class="card-body p-4">
+                                <ul class="list-unstyled mb-2">
+                                    <li class="list-inline-item text-muted small me-3"><i class="uil uil-calendar-alt text-dark h6 me-1"></i>20th November, 2020</li>
+                                    <li class="list-inline-item text-muted small"><i class="uil uil-clock text-dark h6 me-1"></i>5 min read</li>
+                                </ul>
+                                <a href="blog-detail.html" class="text-dark title h5">Chuyên môn hóa điều trị với 6 chuyên khoa</a>
+                                <div class="post-meta d-flex justify-content-between mt-3">
+                                    <a href="blog-detail.html" class="link">Read More <i class="mdi mdi-chevron-right align-middle"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+
+                    <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
+                        <div class="card blog blog-primary border-0 shadow rounded overflow-hidden">
+                            <img src="<c:url value="/images/blogs/03.png"/>" class="img-fluid" alt="">
+                            <div class="card-body p-4">
+                                <ul class="list-unstyled mb-2">
+                                    <li class="list-inline-item text-muted small me-3"><i class="uil uil-calendar-alt text-dark h6 me-1"></i>20th November, 2020</li>
+                                    <li class="list-inline-item text-muted small"><i class="uil uil-clock text-dark h6 me-1"></i>5 min read</li>
+                                </ul>
+                                <a href="blog-detail.html" class="text-dark title h5">Vật liệu nha khoa chính hãng - Bảo hành lâu dài</a>
+                                <div class="post-meta d-flex justify-content-between mt-3">
+                                    <a href="blog-detail.html" class="link">Read More <i class="mdi mdi-chevron-right align-middle"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+        </section><!--end section-->
+        <!-- End -->
+
+
+
         <div class="d-none d-sm-block" style="right: 0; bottom: 9em; z-index: 999; position: fixed;">
             <a style="color: white; width: 5em;" class="btn btn-primary text-center" href="tel:19002102"><i class="fa fa-phone"></i><br><small>Gọi điện</small></a>
             <br>
-            <a style="color: white; width: 5em;" class="my-1 btn btn-primary text-center" href="/#dat-hen"><i class="fa fa-calendar-plus-o"></i><br><small>Đặt hẹn</small></a>
+            <a style="color: white; width: 5em;" class="my-1 btn btn-primary text-center" data-toggle="modal" href="#book_appointment"><i class="fa fa-calendar-plus-o"></i><br><small>Đặt hẹn</small></a>
             <br>
             <a style="color: white; width: 5em;" class="btn btn-primary text-center" href="https://m.me/peacedentistry"><i class="fa fa-facebook-official"></i><br><small>Chat Facebook</small></a>
             <br>
