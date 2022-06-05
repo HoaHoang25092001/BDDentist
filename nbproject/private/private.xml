@@ -5,10 +5,13 @@
         <group>
             <file>file:/D:/PRJ301/C4/BDDentist/web/css/style.css</file>
             <file>file:/D:/PRJ301/C4/BDDentist/web/META-INF/context.xml</file>
+            <file>file:/D:/PRJ301/C4/BDDentist/web/priceList.jsp</file>
             <file>file:/D:/PRJ301/C4/BDDentist/web/index.jsp</file>
             <file>file:/D:/PRJ301/C4/BDDentist/web/login.jsp</file>
+            <file>file:/D:/PRJ301/C4/BDDentist/web/doctorInfo.jsp</file>
             <file>file:/D:/PRJ301/C4/BDDentist/web/WEB-INF/web.xml</file>
             <file>file:/D:/PRJ301/C4/BDDentist/src/java/sample/utils/DBUtils.java</file>
+            <file>file:/D:/PRJ301/C4/BDDentist/web/profile.jsp</file>
         </group>
     </open-files>
 </project-private>
